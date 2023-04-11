@@ -15,12 +15,12 @@ npm install --save pokebutton
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'pokebutton'
+import { Button } from 'pokebutton'
 import 'pokebutton/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button />
   }
 }
 ```
