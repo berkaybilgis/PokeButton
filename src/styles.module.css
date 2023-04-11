@@ -1,9 +1,97 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.primary {
+  background-image: linear-gradient(to right, blue, turquoise);
+  border: 0px solid;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(5, 23, 126),
+    rgb(14, 201, 182)
+  );
+}
+
+.dashed {
+  border: 1px dashed;
+  border-radius: 15px;
+  color: black;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.dashed:hover {
+  border-color: rgb(34, 95, 175);
+  color: rgb(34, 95, 175);
+  opacity: 1;
+}
+
+.text {
+  border: 0px solid;
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.text:hover {
+  background-color: rgb(247, 239, 226);
+}
+
+.link {
+  border: none;
+  background-color: white;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(49, 93, 240);
+}
+
+.default {
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.default:hover {
+  opacity: 1;
+  border-color: rgb(34, 95, 175);
+  color: rgb(34, 95, 175);
 }
